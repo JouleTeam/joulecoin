@@ -1,7 +1,7 @@
 # Joule coin
-This code is actually eosio.token contract of EOS 1.0.2
+This code was compiled using eosio.cdt version 1.6.1
 
 Compile:-
-eosiocpp -o joulecoinjul.wasm joulecoinjul.cpp
+eosio-cpp -I . -o joulecoinjul.wasm joulecoinjul.cpp
 
 
